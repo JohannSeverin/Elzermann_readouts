@@ -20,5 +20,3 @@ def get_data(test_split = 0.2, seed = 42):
     labels      = np.concatenate([high_labels,     low_labels])
 
     return train_test_split(np.array(data), np.array(labels), test_size = test_split)
-
-pickel
